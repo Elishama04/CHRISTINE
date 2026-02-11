@@ -1,0 +1,49 @@
+/* ===========================
+   Global Styling
+   =========================== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+/* ===========================
+   Heading Styles
+   =========================== */
+h1 {
+  font-size: 3rem;
+  color: #2a2a72;
+  margin-top: 40px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* ===========================
+   Container & Layout
+   =========================== */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+.button {
+  display: inline-block;
+  background: #2a2a72;
+  color: #fff;
+  padding: 12px 24px;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #1f1f5c;
+}
